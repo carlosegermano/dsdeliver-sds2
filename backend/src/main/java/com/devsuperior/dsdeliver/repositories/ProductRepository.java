@@ -10,5 +10,5 @@ import com.devsuperior.dsdeliver.entities.Product;
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Long> {
 
-	public List<Product> findAllByOrderByName();
+	List<Product> findAllByOrderByName();
 }
