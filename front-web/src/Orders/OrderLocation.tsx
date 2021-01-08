@@ -1,6 +1,6 @@
 import './styles.css'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
-import AsyncSelect from 'react-select-async-paginate'
+import AsyncSelect from 'react-select/async'
 import { useState } from 'react'
 import { fetchLocalMapBox } from '../api'
 import { OrderLocationData } from './types'
