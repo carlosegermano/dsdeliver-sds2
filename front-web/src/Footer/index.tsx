@@ -1,5 +1,4 @@
 import './styles.css'
-import {ReactComponent as Logo} from './logo.svg'
 import {ReactComponent as Instagram} from './instagram.svg'
 
 function Footer() {
