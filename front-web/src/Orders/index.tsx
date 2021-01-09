@@ -12,8 +12,8 @@ import './styles.css'
 
 function Orders() {
 
-    const [products, setProducts] = useState<Product[]>([])
-    const [selectedProducts, setSelectedProducts] = useState<Product[]>([])
+    const [products, setProducts] = useState<Product[]>([]);
+    const [selectedProducts, setSelectedProducts] = useState<Product[]>([]);
     const [orderLocation, setOrderLocation] = useState<OrderLocationData>();
     const totalPrice = selectedProducts.reduce((sum, item) => {
         return sum + item.price;
